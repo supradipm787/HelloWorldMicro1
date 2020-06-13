@@ -12,9 +12,17 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 @EnableAutoConfiguration
 public class HelloWorldController {
-@RequestMapping("/hello")
+  
+@RequestMapping("/index")
 @ResponseBody
 public String sayHello() {
-return "Hello World Developer - Welcome To DevOps!!!";
+return "Hello World Developers - Welcome To DevOps!!!";
 }
+  
+@RequestMapping("/trainingScrumMaster")
+@ResponseBody
+public String sayHello() {
+return "Hello ScrumMasters - Welcome To DevOps!!!";
+}
+  
 }
