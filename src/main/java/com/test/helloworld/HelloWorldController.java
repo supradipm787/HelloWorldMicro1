@@ -21,7 +21,7 @@ return "Hello World Developers - Welcome To DevOps!!!";
   
 @RequestMapping("/trainingScrumMaster")
 @ResponseBody
-public String sayHello() {
+public String sayAgileDevOps() {
 return "Hello ScrumMasters - Welcome To DevOps!!!";
 }
   
